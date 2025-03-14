@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
-const words = ["Full-Stack Engineer", "Web Developer", "UI/UX Enthusiast"]
+const words = ["Bot Developer", "Web Developer", "UI/UX Enthusiast"]
 
 export function AnimatedText() {
   const [currentWord, setCurrentWord] = useState(0)
